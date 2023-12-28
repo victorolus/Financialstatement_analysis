@@ -4,6 +4,8 @@
 
 This project focuses on the analysis of financial data sourced from the "FinancialStatements.csv" dataset. The data importation and analysis were initially carried out using SQLite via the command line in the Terminal. However, challenges arose during attempts to import data using MySQL Workbench. To address this issue, the dataset was exported to an SQL file and modified for MySQL compatibility, with the changes subsequently committed to a schema.
 
+- Link to Dataset: https://www.kaggle.com/datasets/rish59/financial-statements-of-major-companies2009-2023
+
 ## Data Analysis
 
 ### Companies with the Highest Gross Profit in 2022
@@ -45,3 +47,10 @@ A location column was added to the dataset, populated based on each company's he
 The project concludes by creating views suitable for visualization in Tableau. These include a view showcasing the locations of company headquarters in the US and another view highlighting companies with the highest cumulative net income in 2022.
 
 These queries and modifications offer valuable insights into various financial aspects and provide a foundation for further visualization and analysis.
+
+
+## Instructions for Use
+
+1. Clone the repository.
+2. Execute SQL queries on the provided dataset.
+3. Open Tableau CRM to explore and interact with visualizations.
